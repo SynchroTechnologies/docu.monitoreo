@@ -1,4 +1,4 @@
-baseURL: http://docs.monitoreo.synchro.ar
+baseURL: https://docu-monitoreo.netlify.app
 languageCode: en-us
 title: Monitoreo Documentación
 theme: digitalgarden
