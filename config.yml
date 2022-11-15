@@ -1,3 +1,56 @@
-baseURL: http://example.org/
+baseURL: http://docs.monitoreo.synchro.ar
 languageCode: en-us
-title: My New Hugo Site
+title: Monitoreo Documentación
+theme: digitalgarden
+
+params:
+  description: "Nuevo Stack de Monitoreo"
+  enableSearch: false
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+    - name: "Contenido"
+      params:
+        header: true
+      weight: 2
+
+    - name: "Situación Actual"
+      url: "/situacion_actual"
+      weight: 3
+
+    - name: "Herramientas"
+      url: "/tools"
+      weight: 4
+
+    - name: "Links"
+      params:
+        header: true
+      weight: 5
+
+    - name: "ITIL - Events Management"
+      url: "https://www.itil-docs.com/blogs/itil-concepts/itil-event-management"
+      weight: 6
+
+  social:
+    - name: "GitHub"
+      url: "https://github.com/synchrotechnologies"
+      weight: 1
+    
+    - name: "Email"
+      url: "mailto:hugo.antolini@synchro-technologies.com"
+      weight: 2
+
+    - name: "LinkedIn"
+      url: "https://linkedin.com/company/synchro-technologies"
+      weight: 3
+
+markup:
+  highlight:
+    style: "dracula"
+  goldmark:
+    renderer:
+      unsafe: true
