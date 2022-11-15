@@ -8,4 +8,4 @@ Descripción de alto nivel de la solución de monitoreo. Muestra la interacción
 
 Diagrama C4 del contexto:
 
-{{<figure src="img/Monitoreo.C4.drawio.png" title="Monitoreo Contexto" >}}
+{{<figure src="img/Monitoreo.C4.drawio.png" alt="Monitoreo Contexto" hover-effect="grow" >}}
